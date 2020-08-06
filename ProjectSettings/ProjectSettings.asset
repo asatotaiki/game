@@ -122,7 +122,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 5652042403235639534, guid: a91e2dbcba06c4a4185d3cc5e029f2ea, type: 2}
+  - {fileID: 11400000, guid: a61955ceec7ec894793541b93a9b707f, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -417,12 +419,10 @@ PlayerSettings:
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 1
-    m_Devices:
-    - Oculus
-    - OpenVR
+    m_Enabled: 0
+    m_Devices: []
   - m_BuildTarget: Android
-    m_Enabled: 1
+    m_Enabled: 0
     m_Devices:
     - Oculus
   openGLRequireES31: 0
