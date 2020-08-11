@@ -777,7 +777,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1110519889
 PrefabInstance:
@@ -1172,6 +1172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 8166184873498966719, guid: 4e31c4b9964ebdc46a55c6620b81c8f5, type: 3}
+  gun: {fileID: 0}
   speed: 150
 --- !u!1 &1524042953
 GameObject:
