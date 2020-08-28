@@ -1,0 +1,6 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -1,4 +0,3 @@
+-# This .gitignore file should be placed at the root of your Unity project directory
+ [Ll]ibrary/
+ [Tt]emp/
+ [Oo]bj/
